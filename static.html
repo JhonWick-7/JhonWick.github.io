@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的 GitHub 主页</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- 导航栏 -->
+    <nav class="bg-gray-800 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">我的 GitHub 主页</h1>
+            <div class="space-x-4">
+                <a href="#home" class="hover:text-gray-300">首页</a>
+                <a href="#projects" class="hover:text-gray-300">项目</a>
+                <a href="#contact" class="hover:text-gray-300">联系我</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 简介部分 -->
+    <section id="home" class="py-20 bg-gradient-to-r from-blue-500 to-indigo-600 text-white text-center">
+        <div class="container mx-auto">
+            <img src="https://via.placeholder.com/150" alt="头像" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <h2 class="text-4xl font-bold mb-4">你好，我是 [你的名字]</h2>
+            <p class="text-lg max-w-2xl mx-auto">我是一名热爱编码的开发者，专注于 Web 开发、人工智能和开源项目。欢迎探索我的 GitHub 主页！</p>
+        </div>
+    </section>
+
+    <!-- 项目展示部分 -->
+    <section id="projects" class="py-20 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-center mb-10">我的项目</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- 项目卡片 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">项目 1</h3>
+                    <p class="text-gray-600 mb-4">这是一个示例项目，使用 Python 开发的一个数据分析工具。</p>
+                    <a href="https://github.com/yourusername/project1" class="text-blue-500 hover:underline">查看项目</a>
+                </div>
+                <!-- 项目卡片 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">项目 2</h3>
+                    <p class="text-gray-600 mb-4">一个基于 React 和 Tailwind CSS 的现代化 Web 应用。</p>
+                    <a href="https://github.com/yourusername/project2" class="text-blue-500 hover:underline">查看项目</a>
+                </div>
+                <!-- 项目卡片 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold mb-2">项目 3</h3>
+                    <p class="text-gray-600 mb-4">一个开源的 CLI 工具，用于自动化日常任务。</p>
+                    <a href="https://github.com/yourusername/project3" class="text-blue-500 hover:underline">查看项目</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式部分 -->
+    <section id="contact" class="py-20 bg-gray-800 text-white text-center">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold mb-10">联系我</h2>
+            <p class="text-lg mb-4">有兴趣合作或想了解更多？通过以下方式联系我！</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com/yourusername" class="text-blue-300 hover:text-blue-500">GitHub</a>
+                <a href="mailto:your.email@example.com" class="text-blue-300 hover:text-blue-500">邮箱</a>
+                <a href="https://x.com/yourusername" class="text-blue-300 hover:text-blue-500">X</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white text-center p-4">
+        <p>&copy; 2025 [你的名字]. 保留所有权利。</p>
+    </footer>
+</body>
+</html>
